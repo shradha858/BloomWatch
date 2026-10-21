@@ -1,0 +1,36 @@
+{
+  "water_body": "Bellandur Lake",
+  "task": "Next usable observation NDCI regression",
+  "maximum_target_gap_days": 30,
+  "eligible_pairs": 56,
+  "training_pairs": 42,
+  "test_pairs": 14,
+  "test_input_start": "2025-03-13T05:25:42.688000+00:00",
+  "satellite_only_mae": 0.08746146531195509,
+  "model_mae": 0.08789960336970716,
+  "model_rmse": 0.1077283688856201,
+  "persistence_baseline_mae": 0.08101024106144906,
+  "beats_persistence_on_holdout": false,
+  "beats_satellite_only": false,
+  "features": [
+    "NDWI",
+    "NDVI",
+    "NDCI",
+    "season_sin",
+    "season_cos",
+    "precipitation_previous_day_mm",
+    "precipitation_previous_7d_mm",
+    "precipitation_previous_30d_mm",
+    "air_temperature_previous_7d_mean_c",
+    "wind_previous_7d_mean_daily_max_m_s"
+  ],
+  "limitations": [
+    "Previously inspected holdout: exploratory comparison.",
+    "Small single-lake dataset and variable forecast interval.",
+    "Weather is gridded reanalysis, not lake sensor data.",
+    "Air temperature is not water temperature.",
+    "Precipitation is not runoff.",
+    "NDCI is not calibrated chlorophyll concentration.",
+    "No verified bloom or toxin labels."
+  ]
+}

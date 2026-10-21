@@ -1,0 +1,52 @@
+{
+  "water_bodies": [
+    {
+      "id": "bellandur",
+      "name": "Bellandur Lake",
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "type": "lake",
+      "boundary_file": "data/metadata/bellandur_boundary_candidates.geojson",
+      "bbox": [
+        77.6430676,
+        12.927866,
+        77.6799066,
+        12.9445961
+      ],
+      "boundary_source": "OpenStreetMap contributors",
+      "boundary_review": "Visual alignment checked; independent verification pending"
+    },
+    {
+      "id": "hebbal",
+      "name": "Hebbal Lake",
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "type": "lake",
+      "boundary_file": "data/metadata/hebbal_boundary_candidates.geojson",
+      "bbox": [
+        77.5809967,
+        13.0433506,
+        77.591728,
+        13.0510304
+      ],
+      "boundary_source": "OpenStreetMap contributors",
+      "boundary_review": "Candidate boundary; visual and independent verification pending"
+    },
+    {
+      "id": "agara",
+      "name": "Agara Lake",
+      "state": "Karnataka",
+      "city": "Bengaluru",
+      "type": "lake",
+      "boundary_file": "data/metadata/agara_boundary_candidates.geojson",
+      "bbox": [
+        77.638722,
+        12.9165821,
+        77.6451506,
+        12.9238749
+      ],
+      "boundary_source": "OpenStreetMap contributors",
+      "boundary_review": "Candidate boundary; visual and independent verification pending"
+    }
+  ]
+}

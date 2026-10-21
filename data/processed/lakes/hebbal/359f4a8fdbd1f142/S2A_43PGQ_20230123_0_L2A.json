@@ -1,0 +1,12 @@
+{
+  "status": "below_quality_cutoff",
+  "quality": {
+    "water_body_id": "hebbal",
+    "scene_id": "S2A_43PGQ_20230123_0_L2A",
+    "date": "2023-01-23T05:25:16.005000Z",
+    "lake_pixels": 1136,
+    "quality_retained_pct": 19.366197183098592,
+    "scl_water_pct": 19.190140845070424
+  },
+  "rows": []
+}

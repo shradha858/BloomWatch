@@ -1,0 +1,15 @@
+{
+  "water_body_id": "hebbal",
+  "water_body": "Hebbal Lake",
+  "scope": "Full saved catalogue",
+  "attempted_scenes": 84,
+  "checked_scenes": 84,
+  "processed_scenes": 68,
+  "measurement_rows": 816,
+  "screened_water_observations": 62,
+  "quality_cutoff_pct": 80,
+  "boundary_review": "Candidate boundary; visual and independent verification pending",
+  "run_signature": "359f4a8fdbd1f142",
+  "failures": [],
+  "assessment": "Exploratory indices; harmful algae not confirmed"
+}

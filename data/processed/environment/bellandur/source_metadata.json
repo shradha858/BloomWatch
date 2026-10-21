@@ -1,0 +1,22 @@
+{
+  "water_body_id": "bellandur",
+  "source": "Open-Meteo Historical Weather API / ERA5",
+  "timezone": "Asia/Kolkata",
+  "requested_latitude": 12.937144450000002,
+  "requested_longitude": 77.67202269379158,
+  "returned_latitude": 13.0,
+  "returned_longitude": 77.75,
+  "daily_units": {
+    "time": "iso8601",
+    "temperature_2m_mean": "\u00b0C",
+    "precipitation_sum": "mm",
+    "wind_speed_10m_max": "m/s"
+  },
+  "notes": [
+    "Gridded reanalysis, not lake sensor observations.",
+    "Air temperature is not water temperature.",
+    "Precipitation is not runoff.",
+    "Lagged features exclude the observation day.",
+    "Nearby lakes may share the same weather grid cell."
+  ]
+}

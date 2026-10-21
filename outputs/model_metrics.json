@@ -1,0 +1,13 @@
+{
+  "task": "Next usable observation NDCI regression",
+  "maximum_target_gap_days": 30,
+  "eligible_pairs": 56,
+  "training_pairs": 42,
+  "test_pairs": 14,
+  "test_input_start": "2025-03-13T05:25:42.688000+00:00",
+  "model_mae": 0.08746146531195508,
+  "model_rmse": 0.11064748310065663,
+  "persistence_baseline_mae": 0.08101024106144906,
+  "beats_persistence_on_holdout": false,
+  "limitations": "Small single-lake dataset; variable forecast interval; changing SCL-water pixels; no verified bloom labels; one chronological holdout, not operational validation."
+}
